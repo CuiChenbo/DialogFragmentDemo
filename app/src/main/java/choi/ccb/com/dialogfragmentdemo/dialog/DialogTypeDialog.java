@@ -7,6 +7,9 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AlertDialog;
 
+/**
+ * CCB:Dialog风格的DialogFragment
+ */
 public class DialogTypeDialog extends DialogFragment {
 
     @NonNull

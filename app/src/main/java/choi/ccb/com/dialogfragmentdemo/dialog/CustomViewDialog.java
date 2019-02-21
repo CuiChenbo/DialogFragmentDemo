@@ -10,6 +10,9 @@ import android.view.ViewGroup;
 
 import choi.ccb.com.dialogfragmentdemo.R;
 
+/**
+ * CCB:自定义view版Dialog
+ */
 public class CustomViewDialog extends DialogFragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

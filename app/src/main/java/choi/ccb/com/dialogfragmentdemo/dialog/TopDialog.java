@@ -16,7 +16,10 @@ import android.widget.LinearLayout;
 
 import choi.ccb.com.dialogfragmentdemo.R;
 
-
+/**
+ * CCB:顶部显示、全屏、宽度全屏、高度自定义、背景全透明；
+ * 仿网易云音乐下载完成提示；
+ */
 public class TopDialog extends DialogFragment {
 
     private LinearLayout ll;
