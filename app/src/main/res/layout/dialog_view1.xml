@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="提示"
+        android:textSize="20dp"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="生成自定义view，进行填充。重写onCreateView return view，就完成了自定义view填充，然后可以获取view设置事件。"
+        android:textSize="14dp"
+        android:textColor="#555"
+        android:gravity="center|left"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#999"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="确定"
+        android:textSize="18dp"
+        android:textColor="#4bc"
+        android:gravity="center|right"
+        android:paddingRight="55dp"
+        />
+
+</LinearLayout>
