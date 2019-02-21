@@ -48,6 +48,7 @@ public class TopDialog extends DialogFragment {
         windowParams.dimAmount = 0.0f;//Dialog外边框透明
         window.setLayout(-1, -2); //高度自适应，宽度全屏
         windowParams.gravity = Gravity.TOP; //在顶部显示
+        windowParams.windowAnimations = R.style.TopDialogAnimation;
         window.setAttributes(windowParams);
     }
 

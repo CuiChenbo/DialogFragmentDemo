@@ -26,5 +26,11 @@
         android:id="@+id/bt3"
         android:text="Dialog创建方式版"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt4"
+        android:text="底部选择框Dialog"
+        />
 
 </LinearLayout>

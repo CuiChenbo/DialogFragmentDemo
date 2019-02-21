@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import choi.ccb.com.dialogfragmentdemo.dialog.BottomDialog;
 import choi.ccb.com.dialogfragmentdemo.dialog.CustomViewDialog;
 import choi.ccb.com.dialogfragmentdemo.dialog.DialogTypeDialog;
 import choi.ccb.com.dialogfragmentdemo.dialog.TopDialog;
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.bt1).setOnClickListener(this);
         findViewById(R.id.bt2).setOnClickListener(this);
         findViewById(R.id.bt3).setOnClickListener(this);
+        findViewById(R.id.bt4).setOnClickListener(this);
     }
 
     @Override
@@ -31,6 +33,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.bt3:
                 new DialogTypeDialog().show(getSupportFragmentManager(),"3'");
+                break;
+            case R.id.bt4:
+                new BottomDialog().show(getSupportFragmentManager(),"4");
                 break;
         }
     }

@@ -18,4 +18,14 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
     </style>
 
+    <style name="BottomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_bottom_up</item>
+        <item name="android:windowExitAnimation">@anim/dialog_bottom_down</item>
+    </style>
+
+    <style name="TopDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_top_show</item>
+        <item name="android:windowExitAnimation">@anim/dialog_top_hide</item>
+    </style>
+
 </resources>
