@@ -17,8 +17,6 @@ import choi.ccb.com.dialogfragmentdemo.R;
 
 public class BottomDialog extends DialogFragment {
 
-    private  View masker;
-    private LinearLayout layoutBottom;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
